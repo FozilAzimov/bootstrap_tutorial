@@ -9,4 +9,4 @@
 // 6. container-xl; >= 1200px
 // 7. container-xxl; >= 1400px
 
-// bularning hammasi sitening responsive bo'lishiga hizmat qiladi.
+// bularning hammasi sitening responsive bo'lishiga xizmat qiladi.
