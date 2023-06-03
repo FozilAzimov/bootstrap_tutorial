@@ -1,8 +1,1 @@
-// Mavzu: Typeografy
-
-
-
-
-
-
-
+// Mavzu: Typeografy;
