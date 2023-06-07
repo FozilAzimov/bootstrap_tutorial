@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap tutorial</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row justify-content-center mb-3">
+      <h3>Button Close</h3>
+      <div class="col-3 border border-primary p-5 d-flex justify-content-center gap-5">
+        <button type="button" class="btn-close border border-primary" aria-lable="Close"></button>
+        <button type="button" class="btn-close border border-primary" aria-lable="Close" disabled></button>
+      </div>
+    </div>
+
+    <div class="row justify-content-center mb-3">
+      <h3>Button Collapse</h3>
+      <div class="col-6 border border-primary p-5 gap-5">
+        <p>
+          <a href="#id" role="button" class="btn btn-primary" data-bs-toggle="collapse" aria-expanded="true" are
+            aria-controls="id">Button
+            link</a>
+          <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#id"
+            aria-expanded="false" aria-controls="id">Button</button>
+        </p>
+        <div class="collapse" id="id">
+          <div class="card card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti et architecto
+            libero inventore alias nobis amet reprehenderit dolorum laboriosam commodi.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row justify-content-center mb-3">
+      <h3>Dropdown</h3>
+      <div class="col-3 border border-primary p-5 gap-5">
+        <div class="dropdown">
+          <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"
+            id="dropdownMenu">Dropdown</button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu">
+            <li><a href="#" class="dropdown-item border border-secondary">Item1</a></li>
+            <li><a href="#" class="dropdown-item border border-secondary">Item2</a></li>
+            <li><a href="#" class="dropdown-item border border-secondary">Item3</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src=" ./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
