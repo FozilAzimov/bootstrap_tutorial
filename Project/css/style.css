@@ -1,0 +1,99 @@
+html {
+  font-size: 10px;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+  list-style: none;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 1.8rem;
+}
+
+h1 {
+  font-size: 2.6rem;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+img {
+  width: 100%;
+}
+
+.text-info {
+  color: #9bc0ff !important;
+}
+
+.btn {
+  font-size: 1.8rem;
+  padding: 1rem 3rem;
+}
+
+.logo_img {
+  height: 3rem;
+}
+
+.nav-item>.nav-link:hover {
+  color: #9bc0ff !important;
+}
+
+.nav-item>.nav-link {
+  position: relative;
+}
+
+.nav-item>.nav-link::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 87%;
+  height: 0;
+  transition: .5s;
+}
+
+.nav-item>.nav-link:hover::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 87%;
+  height: 3px;
+  background: #fff;
+  transform: .5s;
+}
+
+.icon {
+  width: 1.8rem;
+}
+
+.wrapper {
+  height: 74.7rem;
+  background-image: url('../assets/imgs/banner.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner_title {
+  font-size: 11rem;
+  width: 50%;
+  margin: 15rem auto 6rem auto;
+  text-align: center;
+}
+
+.aboutMe {
+  padding: 10rem 30rem;
+}
+
+.height1 {
+  height: 40rem;
+}
+
+.height2 {
+  height: 19.5rem;
+}
